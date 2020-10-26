@@ -115,12 +115,116 @@
         android:textSize="20dp"></Button>
 </LinearLayout>
 <LinearLayout
-    android:layout_width=""
-    android:layout_height=""
-
-
-
+    android:layout_width="420dp"
+    android:layout_height="match_parent"
+    android:layout_weight="1"
+    android:orientation="horizontal"
+    android:weightSum="5">
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="#534F4F"
+        android:text="4"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"></Button>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="#534F4F"
+        android:text="5"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"></Button>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="#534F4F"
+        android:text="6"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"></Button>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:background="#FF5722"
+        android:text="-"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"></Button>
 </LinearLayout>
+    <LinearLayout
+        android:layout_width="420dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:weightSum="5">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#534F4F"
+            android:text="1"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp"></Button>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#534F4F"
+            android:text="2"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp"></Button>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#534F4F"
+            android:text="3"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp"></Button>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:background="#FF5722"
+            android:text="+"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp"></Button>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="420dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:weightSum="5">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:background="#534F4F"
+            android:text="0"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp"></Button>
 
+        <Button
+            android:layout_width="110dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#534F4F"
+            android:text="."
+            android:textColor="#FFFFFF"
+            android:textSize="20dp"></Button>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#FF5722"
+            android:text="="
+            android:textColor="#FFFFFF"
+            android:textSize="20dp"></Button>
+    </LinearLayout>
+</LinearLayout>
 </LinearLayout>
 </RelativeLayout>
